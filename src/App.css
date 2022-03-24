@@ -1,0 +1,80 @@
+.app {
+    text-align: center;
+    margin: 2rem auto;
+    width: 80rem;
+    height: 50rem;
+    border: 4px solid black;
+    padding: 12px;
+}
+.app .appMain {
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+.app .appMain h1 {
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.app .appMain .container .row .col form .form-group.form1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.app .appMain .container .row .col form .form-group.form1 label:focus {
+    outline: none;
+    border: 1px solid black;
+}
+.app .appMain .container .row .col form .form-group.form1 input {
+    width: 19rem;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-left: 46px;
+    height: 36px;
+}
+.app .appMain .container .row .col form .form-group.form2 .react-datepicker-wrapper {
+    width: 170px;
+}
+.app .appMain .container .row .col form .form-group.form2 .react-datepicker-wrapper .inputDate {
+    width: 8rem;
+    outline: none;
+    border: 1px solid #ccc;
+    height: 36px;
+    margin-left: 30px;
+}
+.app .appMain .container .row .col form .form-group.form2 small p {
+    transform: translate(-137px, 35px);
+    color: red;
+}
+.app .appMain .container .row .col form button.btn {
+    position: relative;
+    margin-left: 65px;
+}
+.app .appMain .container .row .col.list {
+    padding: 10px;
+    border-radius: 4px;
+    height: 40rem;
+    overflow-y: auto;
+}
+.app .appMain .container .row .col.list .item {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.app .appMain .container .row .col.list .item .itemRemind {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+}
+.app .appMain .container .row .col.list .item .itemRemind .item__date {
+    font-weight: bold;
+}
+.app .appMain .container .row .col.list .item .itemRemind .item__content {
+    display: flex;
+    justify-content: flex-start;
+}
+.app .appMain .container .row .col.list .item .itemBtn {
+    cursor: pointer;
+}
